@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>CAPITALS OF EUROPE</h1>
+
+    <div class="container">
+        <p class="score">Score: </p>
+        <p class="question">What's the capital of:</p>
+        <p class="country"></p>
+    <input class="input" type="text" id="answer" value="" autocomplete="off" placeholder="type your answer...">
+    <p class="correct">Yay!</p>
+    <p class="incorrect">Boo!</p> <br><br>
+    <button onclick="window.location.reload();">Restart</button>
+    </div>
+
+    <div class="highscore">
+        <p>FINISHED! 🎉</p>
+        <p class="corScore">Correct answers: </p>
+        <p class="incScore">Incorrect answers: </p>
+        <button onclick="window.location.reload();">Play again</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
