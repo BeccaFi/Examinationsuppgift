@@ -1,2 +1,0 @@
-# Examinationsuppgift
-Europe capital quiz
